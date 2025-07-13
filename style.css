@@ -1,0 +1,32 @@
+.bg-dark{
+    background-color: black !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+  }
+.nav-link:hover, .active{
+    color:rgba(240, 248, 255, 0.795) !important;
+}
+/* Reduce padding to shrink navbar height */
+.navbar {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+.body{
+    background-image: url('assets/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Roboto';
+}
+
+.fs-2{
+    font-size: 1.2rem !important;
+}
+.bg-cus{
+    background-color: #f8f9fa91 !important;
+    opacity:0.9;
+}
+.form{
+    border-color:rgb(0, 68, 255) !important;
+    box-shadow: 3px 3px rgb(0, 68, 255) ,-3px -3px rgb(0, 68, 255)!important;
+}
